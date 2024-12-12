@@ -1,0 +1,67 @@
+.bg-white-force {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+  
+  .text-black-force {
+    color: #000000 !important;
+  }
+
+  /* Fondo general del contenido */
+  ion-content {
+    --background: #1e1e1e; /* Fondo oscuro para el contenido */
+    padding: 20px; /* Espaciado interno */
+  }
+
+  /* Estilo para el toolbar */
+  ion-toolbar {
+    --background: #9b71ca; /* Color de fondo azul */
+    --color: white; /* Texto blanco para el título */
+  }
+
+  /* Estilo para los botones en el toolbar */
+  ion-back-button {
+    --color: white; /* Botón de retroceso en blanco */
+  }
+
+  /* Contenedor principal */
+  .container {
+    background-color: #2a2a2a; /* Fondo gris oscuro para el contenedor */
+    padding: 15px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  }
+
+  /* Estilo para el QR */
+  .qr-wrapper {
+    display: flex; /* Usar flexbox para centrar */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente si es necesario */
+    margin: 20px 0; /* Margen superior e inferior */
+  }
+
+  /* Estilo para el botón de continuar */
+  ion-button {
+    --background: #F9A825; /* Color amarillo suave para el botón */
+    --color: white; /* Texto blanco */
+    --border-radius: 20px; /* Bordes redondeados */
+    --box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    font-size: 18px; /* Tamaño de fuente del botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    margin-top: 20px; /* Margen superior */
+  }
+
+  /* Centrando el contenido */
+  .ion-text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  /* Estilo para el texto de error o información */
+  .error-message {
+    color: #ff4d4d; /* Color rojo para mensajes de error */
+    text-align: center; /* Centrar texto */
+    margin-top: 10px; /* Margen superior */
+  }

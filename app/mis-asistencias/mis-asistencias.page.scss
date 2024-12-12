@@ -1,0 +1,46 @@
+/* Fondo general del contenido */
+ion-content {
+  --background: #1e1e1e; /* Fondo oscuro para el contenido */
+  padding: 20px; /* Espaciado interno */
+}
+
+/* Estilo para el toolbar */
+ion-toolbar {
+  --background: #9b71ca; /* Color de fondo azul */
+  --color: white; /* Texto blanco para el título */
+}
+
+/* Estilo para los botones en el toolbar */
+ion-back-button {
+  --color: white; /* Botón de retroceso en blanco */
+}
+
+/* Estilo para las filas de datos */
+ion-item {
+  background-color: #2a2a2a; /* Fondo gris oscuro para los items */
+  border-radius: 8px; /* Bordes redondeados */
+  margin-bottom: 10px; /* Espaciado inferior entre items */
+  transition: background-color 0.3s ease; /* Transición suave */
+}
+
+/* Efecto hover en las filas de datos */
+ion-item:hover {
+  background-color: #3a3a3a; /* Cambio de fondo al pasar el mouse */
+}
+
+/* Estilo para el contenido de cada columna */
+ion-label {
+  color: #ffffff; /* Texto blanco para las etiquetas */
+}
+
+/* Estilo para el título */
+h2 {
+  font-size: 1.5rem; /* Tamaño de texto del título */
+  margin: 0; /* Sin margen */
+}
+
+/* Estilo para el texto de sección */
+p {
+  font-size: 1rem; /* Tamaño de texto del párrafo */
+  color: #cccccc; /* Color gris claro para el texto */
+}

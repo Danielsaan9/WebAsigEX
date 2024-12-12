@@ -1,0 +1,152 @@
+:host {
+  background-color: #1e1e1e;
+}
+
+ion-toolbar {
+    --background: #6c5ce7;
+    display: flex;
+    justify-content: center; 
+    padding: 15px 0;
+  }
+  
+
+ion-toolbar img {
+    max-width: 150px; 
+    height: auto
+    ;
+}
+
+ion-content {
+    --background: #1e1e1e;
+    padding-top: 20px;
+    min-height: 100vh;
+}
+
+h4 {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+
+ion-input {
+    --background: #2a2a2a;
+    --padding-start: 12px;
+    --padding-end: 12px;
+    --border-radius: 10px;
+    --box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border: 1px solid #6c5ce7; 
+    height: 50px;
+    margin: 10px 0;
+    width: 90%;
+    color: #ffffff;
+}
+
+
+.ion-text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+}
+
+
+ion-button {
+    --background: #6c5ce7;
+    --color: white;
+    --border-radius: 20px; 
+    --box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2); 
+    width: 70%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+ion-button:hover {
+    --background: #5a4fcf;
+}
+
+
+ion-grid {
+    margin-top: 20px;
+}
+
+
+.restablecer-container {
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.restablecer-container ion-button {
+    --background: #e67e22;
+    width: 100%;
+    margin-top: 10px;
+}
+
+ion-input[type="email"] {
+    --background: white; 
+    width: 100px;
+}
+ion-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  ion-content {
+    padding-top: 56px; 
+  }
+  .mensaje-error {
+    color: #ffffff;
+    background-color: #e74c3c;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.5s ease-in-out, fadeOut 0.5s ease-in-out 0.5s;
+  }
+  
+  /* Animación para el mensaje */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    to {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+  }
+
+.form-container {
+    
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0;
+    padding: 20px;
+    border: 1px solid #6c5ce7;
+    border-radius: 10px;
+    background-color: #2a2a2a;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,67 @@
+html, body, ion-app, ion-content {
+  height: 100%; /* Garantiza que todo ocupe la altura completa */
+  margin: 0;
+  padding: 0;
+  --background: #1e1e1e; /* Color oscuro para todo */
+  flex: 1 ;
+}
+
+
+
+ion-toolbar {
+  --background: #752e7d;
+  --color: white; 
+}
+
+ion-back-button {
+  --color: white; 
+}
+
+.centrar-contenido {
+  background-color: #1e1e1e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  height: 100%;
+}
+
+
+.texto {
+  font-size: 16px; 
+  color: #ffffff;
+  text-align: center; 
+  margin-bottom: 20px; 
+}
+.ion-page{
+  background-color: #1e1e1e;
+}
+
+ion-button {
+  --background: #F9A825; /* Color de fondo del botón */
+  --color: white; /* Color del texto en el botón */
+  border-radius: 20px; /* Bordes redondeados */
+  padding: 10px 20px; /* Espaciado interno del botón */
+  font-size: 16px; /* Tamaño de texto del botón */
+  transition: background-color 0.3s ease; /* Transición suave para hover */
+}
+
+/* Efecto hover en el botón */
+ion-button:hover {
+  --background: #d89417; /* Color de fondo al pasar el mouse */
+}
+
+/* Estilo para los ion-inputs y ion-labels */
+ion-label {
+  color: #ffffff; /* Texto blanco para las etiquetas */
+}
+
+ion-input {
+  --background: #2a2a2a; /* Fondo gris oscuro para los inputs */
+  --color: #ffffff; /* Texto blanco para los inputs */
+  border: 1px solid #444; /* Borde gris oscuro */
+}
+
+ion-note {
+  color: #ff4d4d; /* Color rojo para notas de error */
+}
